@@ -1,0 +1,24 @@
+/* Reset */
+@font-face {
+    font-family: custom;
+    src: url(font.otf);
+}
+* {
+  margin: 0;
+  padding: 0;
+}
+html,
+body {
+  height: 100%;
+  width: 100%;
+}
+main {
+  height: 100%;
+  font-family: custom;
+  width: 100%;
+  /* background-color: chocolate; */
+  background-image: url(images/background-image.jpg);
+  background-size: cover;
+  /* background-position: 100px; */
+  text-align: center;
+}
